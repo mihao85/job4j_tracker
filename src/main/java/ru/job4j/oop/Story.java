@@ -11,5 +11,4 @@ public class Story {
         petya.kill(wolf);
     }
 
-
 }
