@@ -6,14 +6,11 @@ public class Shop {
         int index = 0;
         for (int i = 0; i < products.length; i++) {
             if (products[i] == null) {
-                index = i;
-                break;
-            } else {
-                index = -1;
+                return i;
             }
 
         }
-        return index;
+        return -1;
     }
 
     public static void main(String[] args) {
